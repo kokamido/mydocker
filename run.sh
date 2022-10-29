@@ -1,0 +1,1 @@
+docker run -dt -u alexandr.pankratov --gpus=all -p 30022:22 -p 32000:32000 -p 32001:32001 -p 32002:32002 -p 32003:32003 -p 32004:32004 -p 32005:32005 --shm-size=2G mydocker:$1
